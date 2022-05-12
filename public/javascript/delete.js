@@ -7,7 +7,7 @@ const deletePostHandler = async function(event) {
         method: "delete"
     })
     .then(function() {
-        document.location.replace("/dashboard");
+        document.location.replace("/dashboard.handlebars");
     })
     .catch(err => console.log(err))
 }
